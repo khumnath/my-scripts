@@ -44,4 +44,8 @@ sh -c 'echo "<?php phpinfo(); ?>" > /var/www/html/phptest.php'
 sudo systemctl start apache2
 sudo /etc/init.d/apache2 restart
 echo "all set! you can check localhost/phptest.php on browser"
+else
+    echo "good bye have a nice day!!"
+sleep 3
+clear && printf '\e[3J'
 fi
