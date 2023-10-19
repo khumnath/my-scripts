@@ -1,0 +1,1 @@
+run command `bash <(curl -s https://raw.githubusercontent.com/khumnath/my-scripts/main/deepin-scripts/php8.2-installer.sh)`
